@@ -5,6 +5,8 @@ header {
   font-family: Impact;
   position: fixed;
   top: 0px;
+  height: 8%;
+  width: 100%;
   background-color: #00FF00;
 }
 #title {
