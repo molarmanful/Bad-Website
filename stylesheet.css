@@ -16,7 +16,7 @@ header {
 #subtitle, #subtitle2 {
   font-size: 20px;
   color: Purple;
-  color: DarkGreen;
+  background-color: DarkGreen;
 }
 #content {
   width: 100%;
