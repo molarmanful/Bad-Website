@@ -5,17 +5,18 @@ header {
   font-family: Impact;
   position: fixed;
   top: 0px;
-  height: 8%;
   width: 100%;
   background-color: #00FF00;
 }
 #title {
   font-size: 50px;
   color: DarkGreen;
+  background-color: #7D26CD;
 }
 #subtitle, #subtitle2 {
   font-size: 20px;
   color: Purple;
+  color: DarkGreen;
 }
 #content {
   width: 100%;
