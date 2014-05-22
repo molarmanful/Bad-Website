@@ -23,12 +23,41 @@ header {
   position: absolute;
   top: 500px;
   right: 0px;
+  background-color: #A3C00F;
 }
-#inp
+#inp,#seiz,#diz,#flash {
+  height: 20%;
+  width: 20%;
+}
+#inp {
+  font-size: 30px;
+  background-image: url('http://www.netanimations.net/animated_blue_rain.gif');
+  font-family: Garamond;
+  color: Red;
+}
+#seiz {
+  font-size: 20px;
+  background-image: url('http://24.media.tumblr.com/tumblr_mb1aa9Qzov1r8rjf0o1_400.gif');
+  font-family: Helvetica;
+}
+#diz {
+  font-size: 40px;
+  font-family: 'Courier New';
+  background-image: url('http://media.giphy.com/media/K9ycAYC35Iv1S/giphy.gif');
+}
+#flash {
+  font-size: 35px;
+  font-family: Georgia;
+  background-color: Black;
+  color: Red;
+}
 footer {
   position: fixed;
   background-color: White;
   color: Yellow;
   bottom: 0px;
   font-family: 'Comic Sans';
+}
+footer a {
+  background-color: red;
 }
