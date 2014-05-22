@@ -10,11 +10,9 @@ header {
 }
 #title {
   font-size: 100px;
-  height: 500px;
   color: DarkGreen;
   background-color: #7D26CD;
   border: 5px dashed Yellow;
-  background-image: url('http://img3.wikia.nocookie.net/__cb20100906151038/uncyclopedia/images/0/06/Dancing_skull.gif');
 }
 #subtitle, #subtitle2 {
   background-image: url('http://i675.photobucket.com/albums/vv117/markaevans/myspace-backgrounds-03GREEN.gif');
