@@ -69,11 +69,16 @@ header {
 }
 #search {
   background-color: Maroon;
+  font-family: Helvetica;
 }
 #search input {
   border: 3px dotted Green;
   color: red;
   width: 100%;
+}
+#results {
+  background-color: Purple;
+  color: Green;
 }
 footer {
   position: fixed;
