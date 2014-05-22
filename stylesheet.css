@@ -29,7 +29,7 @@ header {
   background-color: #A3C00F;
   border: 15px groove Orange;
 }
-#inp,#seiz,#diz,#flash, #dance {
+#inp,#seiz,#diz,#flash {
   height: 250px;
   width: 500px;
   float: left;
@@ -59,6 +59,9 @@ header {
   color: Red;
 }
 #dance {
+  height: 400px;
+  width: 1000px;
+  float: left;
   background-image: url('http://img3.wikia.nocookie.net/__cb20100906151038/uncyclopedia/images/0/06/Dancing_skull.gif');
   font-family: 'Impact';
 }
