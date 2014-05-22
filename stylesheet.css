@@ -12,12 +12,14 @@ header {
   font-size: 50px;
   color: DarkGreen;
   background-color: #7D26CD;
+  border: 5px dashed Yellow;
 }
 #subtitle, #subtitle2 {
   background-image: url('http://i675.photobucket.com/albums/vv117/markaevans/myspace-backgrounds-03GREEN.gif');
   font-size: 20px;
   color: Purple;
   background-color: DarkGreen;
+  border: 10px dotted Purple;
 }
 #content {
   width: 80%;
@@ -25,6 +27,7 @@ header {
   top: 500px;
   right: 50px;
   background-color: #A3C00F;
+  border: 15px groove Orange;
 }
 #inp,#seiz,#diz,#flash {
   height: 250px;
