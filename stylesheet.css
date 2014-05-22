@@ -29,7 +29,7 @@ header {
   background-color: #A3C00F;
   border: 15px groove Orange;
 }
-#inp,#seiz,#diz,#flash {
+#inp,#seiz,#diz,#flash, #search {
   height: 250px;
   width: 500px;
   float: left;
@@ -65,6 +65,13 @@ header {
   background-image: url('http://img3.wikia.nocookie.net/__cb20100906151038/uncyclopedia/images/0/06/Dancing_skull.gif');
   font-family: 'Impact';
   color: #EBECE4;
+}
+#search {
+  background-color: Maroon;
+}
+#search input {
+  border: 3px dotted Green;
+  color: red;
 }
 footer {
   position: fixed;
