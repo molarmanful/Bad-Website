@@ -16,7 +16,7 @@ $(document).ready(function(){
           bcolor = "red";
           x = true;
       }
-      document.getElementbyId('flash').style.backgroundColor = bcolor;
-      document.getElementbyId('flash').style.backgroundColor = color;
+      $('#flash').css('background-color', bcolor);
+      $('#flash').css('color', color);
   }
 });
