@@ -19,11 +19,16 @@ header {
   background-color: DarkGreen;
 }
 #content {
-  width: 100%;
+  width: 50%;
+  position: absolute;
+  top: 500px;
+  right: 0px;
 }
+#inp
 footer {
   position: fixed;
   background-color: White;
   color: Yellow;
   bottom: 0px;
+  font-family: 'Comic Sans';
 }
