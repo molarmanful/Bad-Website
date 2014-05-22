@@ -58,6 +58,10 @@ header {
   background-color: Black;
   color: Red;
 }
+#dance marquee {
+  background-image: url('http://img3.wikia.nocookie.net/__cb20100906151038/uncyclopedia/images/0/06/Dancing_skull.gif');
+  font-family: 'Palatino Linotype';
+}
 footer {
   position: fixed;
   width: 100%;
