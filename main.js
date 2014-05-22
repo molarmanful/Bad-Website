@@ -1,18 +1,20 @@
 $(document).ready(function(){
   var x;
+  var bcolor;
+  var color
   function changecolors() {
-      x = 1;
+      x = true;
       setInterval(change, 250);
   }
   function change() {
-      if (x === 1) {
+      if (x == true) {
           bcolor = "red";
           color = "blue";
-          x = 2;
+          x = false;
       } else {
           bcolor = "black";
-          bcolor = "red"
-          x = 1;
+          bcolor = "red";
+          x = true;
       }
       document.getElementbyId('flash').style.backgroundColor = bcolor;
       document.getElementbyId('flash').style.backgroundColor = color;
