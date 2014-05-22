@@ -1,8 +1,6 @@
 $(document).ready(function(){
   var x = true;
-  function changecolors() {
-      setInterval(change, 1000);
-  }
+  setInterval(change, 1000);
   function change() {
       if (x == true) {
           var bcolor = "red";
