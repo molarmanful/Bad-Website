@@ -3,7 +3,7 @@ body {
 }
 header {
   font-family: Impact;
-  position: fixed;
+  position: absolute;
   top: 0px;
   width: 100%;
   background-color: #00FF00;
