@@ -1,20 +1,19 @@
 $(document).ready(function(){
-  var x;
-  var bcolor;
-  var color
+  var x = true;
   function changecolors() {
-      x = true;
-      setInterval(change, 250);
+      setInterval(change, 1000);
   }
   function change() {
       if (x == true) {
-          bcolor = "red";
-          color = "blue";
+          var bcolor = "red";
+          var color = "blue";
           x = false;
+          $('#dance').animate({top:'0px'}, 'slow');
       } else {
-          bcolor = "black";
-          bcolor = "red";
+          var bcolor = "black";
+          var bcolor = "red";
           x = true;
+          $('#dance').animate({bottom:'0px'}, 'slow');
       }
       $('#flash').css('background-color', bcolor);
       $('#flash').css('color', color);
