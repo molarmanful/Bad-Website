@@ -26,8 +26,8 @@ header {
   background-color: #A3C00F;
 }
 #inp,#seiz,#diz,#flash {
-  height: 500px;
-  width: 250px;
+  height: 250px;
+  width: 500px;
   float: left;
 }
 #inp {
