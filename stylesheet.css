@@ -60,10 +60,12 @@ header {
 }
 footer {
   position: fixed;
+  width: 100%;
   background-color: White;
   color: Yellow;
   bottom: 0px;
   font-family: 'Comic Sans';
+  border: 5px ridge Purple;
 }
 footer a {
   background-color: red;
