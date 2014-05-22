@@ -38,13 +38,15 @@ header {
 }
 #seiz {
   font-size: 20px;
-  background-image: url('http://24.media.tumblr.com/tumblr_mb1aa9Qzov1r8rjf0o1_400.gif');
+  background-image: url('http://img2.wikia.nocookie.net/__cb20121114204510/lyricwiki/images/4/49/Bin%C3%A4rpilot_-_Songs_for_Alan_Turing.gif');
   font-family: Helvetica;
+  color: White;
 }
 #diz {
   font-size: 40px;
   font-family: 'Courier New';
   background-image: url('http://media.giphy.com/media/K9ycAYC35Iv1S/giphy.gif');
+  color: #ccff15;
 }
 #flash {
   font-size: 35px;
