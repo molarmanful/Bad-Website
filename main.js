@@ -8,7 +8,7 @@ $(document).ready(function(){
           x = false;
       } else {
           var bcolor = "black";
-          var bcolor = "red";
+          var color = "red";
           x = true;
       }
       $('#flash').css('background-color', bcolor);
