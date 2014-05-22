@@ -60,10 +60,11 @@ header {
 }
 #dance {
   height: 350px;
-  width: 1000px;
+  width: 850px;
   float: left;
   background-image: url('http://img3.wikia.nocookie.net/__cb20100906151038/uncyclopedia/images/0/06/Dancing_skull.gif');
   font-family: 'Impact';
+  color: #EBECE4;
 }
 footer {
   position: fixed;
