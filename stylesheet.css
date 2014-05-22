@@ -19,15 +19,16 @@ header {
   background-color: DarkGreen;
 }
 #content {
-  width: 50%;
+  width: 80%;
   position: absolute;
   top: 500px;
-  right: 0px;
+  right: 50px;
   background-color: #A3C00F;
 }
 #inp,#seiz,#diz,#flash {
-  height: 20%;
-  width: 20%;
+  height: 500px;
+  width: 500px;
+  float: left;
 }
 #inp {
   font-size: 30px;
