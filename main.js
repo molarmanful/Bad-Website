@@ -1,15 +1,23 @@
 $(document).ready(function(){
-  var x = true;
+  var x = 1;
   setInterval(change, 250);
   function change() {
-      if (x == true) {
+      if (x == 1) {
           var bcolor = "red";
           var color = "blue";
-          x = false;
+          x = 2;
+      } else if(x == 2){
+          var bcolor = "pink";
+          var color = "teal";
+          x = 3;
+      } else if(x == 3){
+          var bcolor = "green";
+          var color = "DarkGreen";
+          x = 4;
       } else {
           var bcolor = "black";
           var color = "red";
-          x = true;
+          x = 1;
       }
       $('#flash').css('background-color', bcolor);
       $('#flash').css('color', color);
