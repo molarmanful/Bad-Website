@@ -27,7 +27,7 @@ header {
 }
 #inp,#seiz,#diz,#flash {
   height: 500px;
-  width: 500px;
+  width: 250px;
   float: left;
 }
 #inp {
