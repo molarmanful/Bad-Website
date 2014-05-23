@@ -43,6 +43,7 @@ header {
 #seiz {
   font-size: 20px;
   background-image: url('http://coedmagazine.files.wordpress.com/2009/09/seizure.gif');
+  background-position: center;
   font-family: Helvetica;
   color: White;
 }
