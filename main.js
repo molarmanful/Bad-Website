@@ -22,4 +22,7 @@ $(document).ready(function(){
       $('#flash').css('background-color', bcolor);
       $('#flash').css('color', color);
   }
+  $('#submit').click(function(){
+    $('#res').text('No results found.');
+  });
 });
