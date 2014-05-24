@@ -8,7 +8,10 @@
   </head>
   <body>
     <script>
-      alert('WARNING: THIS SITE MAY GIVE YOU SEIZURES. Do you want to continue?');
+      var confirm = confirm('WARNING: THIS SITE MAY GIVE YOU SEIZURES. Do you want to continue?');
+      if(confirm == false){
+        window.close();
+      }
     </script>
     <header>
       <marquee id="title" direction="left" scrollamount="200">MYYYYYYYYY BAAAAAAAAD WEEEEEBSIIIITEEEEEE!!!!!!!!!!!</marquee>
