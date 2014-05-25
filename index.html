@@ -4,14 +4,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <script>
-      window.onbeforeunload = function(){
-        var bye = confirm('WARNING: You are about to leave this nightmare. Do you want to continue?');
-        if(bye == false){
-          alert('GOODBYE');
-        }
-      }
-    </script>
     <title>bAd WeBsItE</title>
   </head>
   <body>
@@ -20,6 +12,9 @@
       if(con == false){
         confirm('Redirecting you to a better website...');
         window.location = "http://molarmanful.github.io/";
+      }
+      window.onbeforeunload = function(){
+        var bye = confirm('WARNING: You are about to leave this nightmare. Do you want to continue?');
       }
     </script>
     <header>
