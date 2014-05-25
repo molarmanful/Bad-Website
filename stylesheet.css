@@ -97,7 +97,7 @@ header {
   width: 100%;
   background-color: Brown;
   color: Yellow;
-  bottom: 100px;
+  top: 500px;
   font-family: 'Garamond';
   border: 5px ridge Purple;
 }
