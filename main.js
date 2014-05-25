@@ -22,6 +22,16 @@ $(document).ready(function(){
       $('#flash').css('background-color', bcolor);
       $('#flash').css('color', color);
   }
+  setInterval(foot, 1000);
+  var x = true;
+  function foot(){
+    if (x == true){
+      $('#footer').animate({bottom:'400'},'slow');
+      var x = false;
+    } else {
+      $('#footer').animate({bottom:'0'},'slow');
+    }
+  }
   $('#submit').click(function(){
     $('#res').text('No results found.');
   });
