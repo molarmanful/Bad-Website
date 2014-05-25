@@ -5,14 +5,16 @@
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script>
-      var bye = confirm('WARNING: You are about to leave this nightmare. Do you want to continue?');
-      if(bye == false){
-        alert('GOODBYE');
+      function unload(){
+        var bye = confirm('WARNING: You are about to leave this nightmare. Do you want to continue?');
+        if(bye == false){
+          alert('GOODBYE');
+        }
       }
     </script>
     <title>bAd WeBsItE</title>
   </head>
-  <body>
+  <body onunload="unload()">
     <script>
       var con = confirm('WARNING: THIS SITE MAY GIVE YOU SEIZURES. Do you want to continue?');
       if(con == false){
