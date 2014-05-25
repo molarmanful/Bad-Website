@@ -13,16 +13,6 @@
         confirm('Redirecting you to a better website...');
         window.location = "http://molarmanful.github.io/";
       }
-      window.onbeforeunload = function (event) {
-        var message = 'Sure you want to leave?';
-        if (typeof event == 'undefined') {
-          event = window.event;
-        }
-        if (event) {
-          event.returnValue = message;
-        }
-        return message;
-      }
     </script>
     <header>
       <marquee id="title" direction="left" scrollamount="200">MYYYYYYYYY BAAAAAAAAD WEEEEEBSIIIITEEEEEE!!!!!!!!!!!</marquee>
