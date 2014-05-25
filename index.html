@@ -5,7 +5,7 @@
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script>
-      function unload(){
+      window.onbeforeunload = function(){
         var bye = confirm('WARNING: You are about to leave this nightmare. Do you want to continue?');
         if(bye == false){
           alert('GOODBYE');
@@ -14,7 +14,7 @@
     </script>
     <title>bAd WeBsItE</title>
   </head>
-  <body onbeforeunload="unload()">
+  <body>
     <script>
       var con = confirm('WARNING: THIS SITE MAY GIVE YOU SEIZURES. Do you want to continue?');
       if(con == false){
