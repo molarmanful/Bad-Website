@@ -81,6 +81,17 @@ header {
   background-color: Purple;
   color: Green;
 }
+.Three-Dee {
+  font-family: 'Impact';
+  background-color: Red;
+  line-height: 1em;
+  color: #1100ff;
+  font-weight:bold;
+  font-style:italic;
+  text-decoration:underline;
+  font-size: 89px;
+  text-shadow:0px 0px 0 rgb(-6,-23,232),0px -1px 0 rgb(-18,-35,220),0px -2px 0 rgb(-31,-48,207),0px -3px 0 rgb(-44,-61,194),0px -4px 0 rgb(-57,-74,181),0px -5px 0 rgb(-69,-86,169),0px -6px 0 rgb(-82,-99,156),0px -7px 0 rgb(-95,-112,143),0px -8px 0 rgb(-108,-125,130),0px -9px 0 rgb(-120,-137,118),0px -10px 0 rgb(-133,-150,105),0px -11px 0 rgb(-146,-163,92),0px -12px 0 rgb(-159,-176,79),0px -13px 0 rgb(-172,-189,66),0px -14px 0 rgb(-184,-201,54),0px -15px 0 rgb(-197,-214,41),0px -16px 0 rgb(-210,-227,28),0px -17px 0 rgb(-223,-240,15),0px -18px 0 rgb(-235,-252,3),0px -19px 0 rgb(-248,-265,-10), 0px -20px 0 rgb(-261,-278,-23),0px -21px 20px rgba(0,0,0,1),0px -21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);}
+}
 footer {
   position: fixed;
   width: 100%;
@@ -92,14 +103,4 @@ footer {
 }
 footer a {
   background-color: red;
-}
-.Three-Dee {
-  font-family: 'Comic Sans';
-  line-height: 1em;
-  color: #1100ff;
-  font-weight:bold;
-  font-style:italic;
-  text-decoration:underline;
-  font-size: 89px;
-  text-shadow:0px 0px 0 rgb(-6,-23,232),0px -1px 0 rgb(-18,-35,220),0px -2px 0 rgb(-31,-48,207),0px -3px 0 rgb(-44,-61,194),0px -4px 0 rgb(-57,-74,181),0px -5px 0 rgb(-69,-86,169),0px -6px 0 rgb(-82,-99,156),0px -7px 0 rgb(-95,-112,143),0px -8px 0 rgb(-108,-125,130),0px -9px 0 rgb(-120,-137,118),0px -10px 0 rgb(-133,-150,105),0px -11px 0 rgb(-146,-163,92),0px -12px 0 rgb(-159,-176,79),0px -13px 0 rgb(-172,-189,66),0px -14px 0 rgb(-184,-201,54),0px -15px 0 rgb(-197,-214,41),0px -16px 0 rgb(-210,-227,28),0px -17px 0 rgb(-223,-240,15),0px -18px 0 rgb(-235,-252,3),0px -19px 0 rgb(-248,-265,-10), 0px -20px 0 rgb(-261,-278,-23),0px -21px 20px rgba(0,0,0,1),0px -21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);}
 }
