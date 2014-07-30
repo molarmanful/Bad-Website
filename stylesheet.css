@@ -97,7 +97,7 @@ header {
   width: 100%;
   font-family: Arial;
   font-size: 100px;
-  background-image: url('http://www.clker.com/cliparts/e/2/b/4/1328249412629449807background_clovers_vga.jpg');
+  background-color: green;
   color: DarkGreen;
   word-wrap: break-word;
 }
