@@ -22,12 +22,14 @@ $(document).ready(function(){
       $('#flash').css('background-color', bcolor);
       $('#flash').css('color', color);
   }
-  var len = 100,
-    str = '';
-  while(len--) {
-      str += String.fromCharCode( 48 + ~~(Math.random() * 42) );
-  }
-  $('#randomtext').text(str);
+  	var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+  	var string_length = 100;
+  	var randomstring = '';
+  	for (var i=0; i<string_length; i++) {
+  		var rnum = Math.floor(Math.random() * chars.length);
+  		randomstring += chars.substring(rnum,rnum+1);
+  	}
+  	$('#randomtext').text(randomstring);
   $('#submit').click(function(){
     $('#res').text('No results found.');
   });
