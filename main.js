@@ -27,7 +27,7 @@ $(document).ready(function(){
   while(len--) {
       str += String.fromCharCode( 48 + ~~(Math.random() * 42) );
   }
-  $('#random').text(str);
+  $('#randomtext').text(str);
   $('#submit').click(function(){
     $('#res').text('No results found.');
   });
