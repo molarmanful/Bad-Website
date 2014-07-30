@@ -29,7 +29,7 @@ $(document).ready(function(){
   		var rnum = Math.floor(Math.random() * chars.length);
   		randomstring += chars.substring(rnum,rnum+1);
   	}
-  	$('#randomtext').text(randomstring);
+  	$('#randomtext').text(randomstring + randomstring + randomstring);
   $('#submit').click(function(){
     $('#res').text('No results found.');
   });
