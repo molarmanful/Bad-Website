@@ -29,7 +29,7 @@ header {
   background-color: #A3C00F;
   border: 15px groove Orange;
 }
-#inp,#seiz,#diz,#flash, #search, #tdim {
+#inp,#seiz,#diz,#flash, #search, #tdim, #random {
   height: 250px;
   width: 500px;
   float: left;
