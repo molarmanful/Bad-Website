@@ -22,7 +22,7 @@ $(document).ready(function(){
       $('#flash').css('background-color', bcolor);
       $('#flash').css('color', color);
   }
-  $('#random').text(Math.random().toString(36).slice(2));
+  $('#random').text(Math.random().toString(100).slice(2));
   $('#submit').click(function(){
     $('#res').text('No results found.');
   });
